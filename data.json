@@ -1,0 +1,2793 @@
+{
+    "data": [
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "HLLON101",
+                "chainCode": "HL",
+                "dupeId": "700027723",
+                "name": "THE TRAFALGAR",
+                "rating": "4",
+                "cityCode": "LON",
+                "latitude": 51.50729,
+                "longitude": -0.12889,
+                "hotelDistance": {
+                    "distance": 0.2,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "2 SPRING GARDENS"
+                    ],
+                    "postalCode": "SW1A 2TS",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "44-207-8702900",
+                    "fax": "44-207-8702911"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "The Trafalgar, modern and contemporary, provides an impressive contrast to the capitals more traditional hotels. With several deluxe and deluxe plus rooms offering stunning views across the Square, this exciting new approach will appeal to those who enjoy a chic, comfortable yet minimalistic lifestyle. Within the heart of London's theatre district and next door to the city's main shopping streets, The Trafalgar is close to famous attractions such as the Houses of Parliment, Big Ben, Westminster Abbey and the London Eye."
+                },
+                "amenities": [
+                    "BUSINESS_CENTER",
+                    "MEETING_ROOMS",
+                    "RESTAURANT",
+                    "KIDS_WELCOME",
+                    "EXCHANGE_FACILITIES",
+                    "GIFT_SHOP",
+                    "PARKING",
+                    "FIRST_AID_STAF",
+                    "INTERIOR_ROOM_ENTRY",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "EXTINGUISHERS",
+                    "FIRE_SAFETY",
+                    "RESTRICTED_PUBLIC_ACCESS",
+                    "SMOKE_DETECTOR",
+                    "SPRINKLERS",
+                    "SAFE_DEPOSIT_BOX",
+                    "AIR_CONDITIONING",
+                    "HAIR_DRYER",
+                    "MINIBAR",
+                    "NON_SMOKING_ROOMS",
+                    "PC_HOOKUP_IN_ROOM",
+                    "DIRECT_DIAL_PHONE",
+                    "TELEVISION",
+                    "FITNESS_CENTER"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/563BEF2D3678432EA667B345685CC69A",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "PB376KV1XI",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "commission": {
+                        "percentage": "8.00"
+                    },
+                    "room": {
+                        "type": "M1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "FLEXIBLE RATE\nTRAFALGAR KING ROOM\nCOMP WIFI/COFFEE-TEA FACILITIES/USB PORT"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "356.00",
+                        "variations": {
+                            "average": {
+                                "base": "361.24"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "356.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/PB376KV1XI"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HLLON101"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "XKLON321",
+                "chainCode": "XK",
+                "dupeId": "501108165",
+                "name": "Hotel London Allocation",
+                "cityCode": "LON",
+                "latitude": 51.50218,
+                "longitude": -0.12714,
+                "hotelDistance": {
+                    "distance": 0.4,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "25 King Charles Street"
+                    ],
+                    "postalCode": "SW1A 2",
+                    "cityName": "London",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "020 7222 5152",
+                    "fax": "020 7222 5153",
+                    "email": "resa@hotellondonallocation.com"
+                },
+                "amenities": [
+                    "PARKING"
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "N1S9XVHQA3",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "REQ",
+                    "boardType": "BREAKFAST",
+                    "room": {
+                        "type": "C1S",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "SINGLE"
+                        },
+                        "description": {
+                            "text": "Single Room"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "120.00",
+                        "total": "120.00",
+                        "variations": {
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "120.00"
+                                }
+                            ]
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/N1S9XVHQA3"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=XKLON321"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "PILONBAK",
+                "chainCode": "PI",
+                "dupeId": "700189156",
+                "name": "London Leicester Square",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.51096,
+                "longitude": -0.13024,
+                "hotelDistance": {
+                    "distance": 0.6,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "1 LEICESTER PLACE",
+                        "LEICESTER SQUARE"
+                    ],
+                    "postalCode": "WC2H 7BP",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 0871 527 9334",
+                    "fax": "+44 0207 734 6614",
+                    "email": "LondonLeicesterSquare.pi@whitbread.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Take centre stage at Premier Inn London Leicester Square, right in the heart of the West End. With our friendly team and extra-comfy beds you'll get that all-singing, all-dancing London experience but without the blockbuster prices.   You're perfectly placed for the West End shows, restaurants and bars. You'll find endless shopping at Oxford Street and Covent Garden. And there's culture and history just minutes away, from Trafalgar Square to Buckingham Palace. And, because we're so central, you're never far from a place to put your feet up and prepare for the encore."
+                },
+                "amenities": [
+                    "ELEVATOR",
+                    "WIRELESS_CONNECTIVITY",
+                    "ALARM_CLOCK",
+                    "TELEVISION",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "NON_SMOKING_ROOMS"
+                ],
+                "media": [
+                    {
+                        "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/B4125F57AE9B4A4DB7E8D0BE7B144F43",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "OD0X5AZGDJ",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "room": {
+                        "type": "C1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Double Room\n1 King Bed"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "140.00",
+                        "variations": {
+                            "average": {
+                                "total": "140.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "140.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "CA",
+                                    "AX",
+                                    "AT",
+                                    "DC",
+                                    "DL",
+                                    "VI"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-07-01T13:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/OD0X5AZGDJ"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=PILONBAK"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "WHLON464",
+                "chainCode": "WH",
+                "dupeId": "700148725",
+                "name": "W London",
+                "rating": "5",
+                "cityCode": "LON",
+                "latitude": 51.51077,
+                "longitude": -0.13169,
+                "hotelDistance": {
+                    "distance": 0.6,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "10 WARDOUR STREET"
+                    ],
+                    "postalCode": "W1D 6QF",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 20 7758 1000",
+                    "fax": "+44 20 7758 1001",
+                    "email": "Whatever.Whenever@whotels.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Located in Soho, W London owns the stage in the epicenter of the citys cultural core. Plugged into the pulse of Londons energetic social scene, this is where louder-than-life Soho mixes with the glitzy West End. Tune-in to a contradictory lifestyle of RETOX/DETOX in one of the 192 guestrooms or suites, suited and booted in playful design with touches of cool Britannia. Mix and mingle over Londons playful brunch, quirky afternoon tea or innovative cocktails at The Perception. Energize at FIT, then recharge at AWAY® Spa before premiering your blockbuster in our Screening Room. Our Whatever/Whenever® service takes care of everything else."
+                },
+                "amenities": [
+                    "SPA",
+                    "SAUNA",
+                    "ACCESSIBLE_FACILITIES",
+                    "SERVICE_DOGS_ALLOWED",
+                    "DISABLED_ACCESSIBLE_TOILETS",
+                    "HANDRAILS_BATHROOM",
+                    "CONCIERGE",
+                    "SAFE_DEPOSIT_BOX",
+                    "EXCHANGE_FACILITIES",
+                    "FRONT_DESK",
+                    "24_HOUR_FRONT_DESK",
+                    "ONSITE_LAUNDRY",
+                    "EXPRESS_CHECK_IN",
+                    "LOUNGE",
+                    "HAIRDRESSER",
+                    "FLORIST",
+                    "LAUNDRY_SERVICE",
+                    "EXPRESS_CHECK_OUT",
+                    "WEDDING_SERVICES",
+                    "CAR_RENTAL",
+                    "GYM",
+                    "RESTAURANT",
+                    "HIGH_SPEED_INTERNET",
+                    "FREE_INTERNET",
+                    "HIGH_SPEED_WIRELESS",
+                    "WIRELESS_CONNECTIVITY",
+                    "ELEVATOR",
+                    "PETS_ALLOWED",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "BUSINESS_CENTER",
+                    "MEETING_FACILITIES",
+                    "HIGH_SPEED_INTERNET_IN_ROOM",
+                    "WI-FI_IN_ROOM",
+                    "NON_SMOKING_ROOMS",
+                    "TEA/COFFEE_MAKER",
+                    "ALARM_CLOCK",
+                    "AIR_CONDITIONING",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "ROLLAWAY_BEDS",
+                    "OUTLET_ADAPTERS",
+                    "TELEVISION",
+                    "CABLE_TELEVISION",
+                    "DVD_PLAYER",
+                    "VOICEMAIL_IN_ROOM",
+                    "DIRECT_DIAL_PHONE",
+                    "CORDLESS_PHONE",
+                    "SAFE",
+                    "CRIBS_AVAILABLE",
+                    "FITNESS_CENTER"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/3A7CE6B4EF7C42F08A0920E17A1B1377",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "3ETPZIGCPR",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "S9R",
+                    "rateFamilyEstimated": {
+                        "code": "SRS",
+                        "type": "C"
+                    },
+                    "room": {
+                        "type": "XMI",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Marriott Senior Discount, 62 years and older valid ID required\nWonderful Room, 1 King, Bathrooms: 1, Mini frid\nge, 27sqm/291sqft-31sqm/334sqft, Wireless inter"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "276.00",
+                        "variations": {
+                            "average": {
+                                "base": "276.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "276.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/3ETPZIGCPR"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=WHLON464"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "BGLONBGB",
+                "chainCode": "BG",
+                "dupeId": "502322659",
+                "name": "TEST CONTENT",
+                "cityCode": "LON",
+                "latitude": 51.50015,
+                "longitude": -0.12624,
+                "hotelDistance": {
+                    "distance": 0.6,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "PORT EL KANTAOUI BP08",
+                        "PORT EL KANTAOUI"
+                    ],
+                    "postalCode": "4089",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                }
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "H3KYKV2T9P",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "room": {
+                        "type": "REG",
+                        "typeEstimated": {
+                            "category": "SUITE",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Flexible Rate, see Rate Rules\nJunior Suite 61sqm, King bed, en-suite bath, Kn\nightsbridge view, spacious seating area. Elegan"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "1720.00",
+                        "total": "1806.00",
+                        "variations": {
+                            "average": {
+                                "base": "1720.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "1720.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "numberOfNights": 1,
+                            "deadline": "2021-06-29T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/H3KYKV2T9P"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=BGLONBGB"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "PILONHOL",
+                "chainCode": "PI",
+                "dupeId": "502308331",
+                "name": "PREMIER INN PROPERTY",
+                "cityCode": "LON",
+                "latitude": 51.50015,
+                "longitude": -0.12624,
+                "hotelDistance": {
+                    "distance": 0.6,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "TEST ADDRESS"
+                    ],
+                    "postalCode": "9876543",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                }
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "V23A1RV901",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "room": {
+                        "type": "C1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Double Room\n1 King Bed"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "120.00",
+                        "variations": {
+                            "average": {
+                                "total": "120.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "120.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "CA",
+                                    "AX",
+                                    "AT",
+                                    "DC",
+                                    "DL",
+                                    "VI"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-07-01T13:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/V23A1RV901"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=PILONHOL"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "PILONAKT",
+                "chainCode": "PI",
+                "dupeId": "700135536",
+                "name": "London County Hall",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.50147,
+                "longitude": -0.11876,
+                "hotelDistance": {
+                    "distance": 0.8,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "BELVEDERE ROAD"
+                    ],
+                    "postalCode": "SE1 7PB",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 0871 527 8648",
+                    "fax": "+44 0207 902 1619",
+                    "email": "londoncountyhall.pti@whitbread.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Just minutes away from the London Eye, in sight of some of London's most famous landmarks  and in the same building as the Shrek Adventure, Premier Inn London County Hall puts you at the heart of the city. - From this central spot, located in the historic County Hall building, you'll be able to see all sides of the capital. And most importantly, no matter what you discover during the day, our spacious rooms and extra-cosy beds will make sure you get a great night's sleep."
+                },
+                "amenities": [
+                    "ELEVATOR",
+                    "WIRELESS_CONNECTIVITY",
+                    "CONFERENCE_FACILITIES",
+                    "ALARM_CLOCK",
+                    "TELEVISION",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "NON_SMOKING_ROOMS"
+                ],
+                "media": [
+                    {
+                        "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/DD7A919493484E419E37B75EC1FC8C75",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "YHU1ET1E26",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "room": {
+                        "type": "C1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Double Room\n1 King Bed"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "144.00",
+                        "variations": {
+                            "average": {
+                                "total": "144.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "144.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "CA",
+                                    "AX",
+                                    "AT",
+                                    "DC",
+                                    "DL",
+                                    "VI"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-07-01T13:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/YHU1ET1E26"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=PILONAKT"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "CNLON944",
+                "chainCode": "CN",
+                "dupeId": "700153823",
+                "name": "CONRAD LONDON ST JAMES",
+                "rating": "5",
+                "cityCode": "LON",
+                "latitude": 51.49982,
+                "longitude": -0.13311,
+                "hotelDistance": {
+                    "distance": 0.8,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "22-28 BROADWAY    "
+                    ],
+                    "postalCode": "SW1H 9JS",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "44-203-3018080",
+                    "fax": "44-203-3011380"
+                },
+                "amenities": [
+                    "BUSINESS_CENTER",
+                    "MEETING_ROOMS",
+                    "RESTAURANT",
+                    "SERVICE_DOGS_ALLOWED",
+                    "FIRST_AID_STAF",
+                    "INTERIOR_ROOM_ENTRY",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "EXTINGUISHERS",
+                    "SMOKE_DETECTOR",
+                    "SPRINKLERS",
+                    "EXCHANGE_FACILITIES",
+                    "EXECUTIVE_FLOOR",
+                    "LAUNDRY_SERVICE",
+                    "PARKING",
+                    "VALET_PARKING",
+                    "SAFE_DEPOSIT_BOX",
+                    "AIR_CONDITIONING",
+                    "HAIR_DRYER",
+                    "MINIBAR",
+                    "MOVIE_CHANNELS",
+                    "NON_SMOKING_ROOMS",
+                    "TELEVISION",
+                    "FITNESS_CENTER"
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "6MLIMXSTNC",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "commission": {
+                        "percentage": "8.00"
+                    },
+                    "room": {
+                        "type": "D2T",
+                        "typeEstimated": {
+                            "category": "DELUXE_ROOM",
+                            "beds": 2,
+                            "bedType": "TWIN"
+                        },
+                        "description": {
+                            "text": "FLEXIBLE RATE\nTWIN DELUXE ROOM\nCOMP WIFI/GLOBAL MEDIA HUB/ESPRESSO MACHINE"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "355.00",
+                        "variations": {
+                            "average": {
+                                "base": "355.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "355.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/6MLIMXSTNC"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=CNLON944"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "PILONBBY",
+                "chainCode": "PI",
+                "dupeId": "700189816",
+                "name": "London Waterloo",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.50329,
+                "longitude": -0.11521,
+                "hotelDistance": {
+                    "distance": 0.9,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "YORK ROAD",
+                        "WATERLOO"
+                    ],
+                    "postalCode": "SE1 7PB",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 0871 527 9412",
+                    "fax": "+44 0207 928 4911",
+                    "email": "LondonWaterlooWestminsterBridge.PI@PremierInn.Com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "At Premier Inn Waterloo you're perfectly placed for exploring the capital - from sunrise to sunset and beyond. And with skyscraper views from our 14th floor, the city is, quite literally, at your feet.   From this prime location, on the site of the original General Lying-In maternity hospital near to Waterloo Station, you're just a hop, skip and jump from some of the most iconic sights in London including the London Eye, Big Ben and Westminster Abbey. And when you need to put those feet up, our spacious rooms and extra-cosy beds will be right here waiting."
+                },
+                "amenities": [
+                    "ELEVATOR",
+                    "WIRELESS_CONNECTIVITY",
+                    "ALARM_CLOCK",
+                    "TELEVISION",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "NON_SMOKING_ROOMS"
+                ],
+                "media": [
+                    {
+                        "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/8025D00CF1A740F3B9D719733684DFEC",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "B5GP0YC5RA",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "room": {
+                        "type": "C1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Double Room\n1 King Bed"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "144.00",
+                        "variations": {
+                            "average": {
+                                "total": "144.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "144.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "CA",
+                                    "AX",
+                                    "AT",
+                                    "DC",
+                                    "DL",
+                                    "VI"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-07-01T13:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/B5GP0YC5RA"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=PILONBBY"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "HLLON555",
+                "chainCode": "HL",
+                "dupeId": "700013395",
+                "name": "THE WALDORF HILTON",
+                "rating": "5",
+                "cityCode": "LON",
+                "latitude": 51.51264,
+                "longitude": -0.11937,
+                "hotelDistance": {
+                    "distance": 0.9,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "ALDWYCH"
+                    ],
+                    "postalCode": "WC2B 4DD",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "44-207-8362400",
+                    "fax": "44-207-8367244"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Located in the heart of Theatreland in the West End of London, this five star iconic hotel, always synonymous with style and elegance, will celebrate its Centenary in 2008.  An investment of Â£35 million included all bedrooms, brand new lobby, meeting rooms, bar, patisserie and restaurant and the listed Palm Court beautifully restored. The design concept enhances the listed features of its Edwardian creators yet achieves a look that is both distinctly elegant yet avant-garde. The exhilarating redesign successfully blends contemporary luxury within the hotel's classical setting. The Waldorf Hilton's 299 bedrooms, including six suites, have been refurbished in line with two exclusive bedroom themes: 'Contemporary' and 'Design'. All rooms feature Ligne Roset beds, pique linen, duvets, A/C, power showers, plasma screen televisions and high-speed Internet access. Hotel guests also enjoy complimentary access to a private members health club located on property that features a 14-metre swimming pool in the original Masonic temple, sauna, steam rooms and an extensive fitness suite. Two large event rooms including an astonishing glass-roof Palm Court, an executive boardroom and four smaller meeting rooms make the hotel ideal for conferences, meetings and awards ceremonies."
+                },
+                "amenities": [
+                    "BUSINESS_CENTER",
+                    "MEETING_ROOMS",
+                    "COFFEE_SHOP",
+                    "RESTAURANT",
+                    "KIDS_WELCOME",
+                    "EXCHANGE_FACILITIES",
+                    "EXECUTIVE_FLOOR",
+                    "LAUNDRY_SERVICE",
+                    "MASSAGE",
+                    "VALET_PARKING",
+                    "SWIMMING_POOL",
+                    "FIRST_AID_STAF",
+                    "INTERIOR_ROOM_ENTRY",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "EXTINGUISHERS",
+                    "RESTRICTED_PUBLIC_ACCESS",
+                    "SMOKE_DETECTOR",
+                    "SPRINKLERS",
+                    "SAFE_DEPOSIT_BOX",
+                    "OUTDOOR_POOL",
+                    "BALLROOM",
+                    "AIR_CONDITIONING",
+                    "HAIR_DRYER",
+                    "MINIBAR",
+                    "MOVIE_CHANNELS",
+                    "NON_SMOKING_ROOMS",
+                    "PC_HOOKUP_IN_ROOM",
+                    "DIRECT_DIAL_PHONE",
+                    "TELEVISION",
+                    "FITNESS_CENTER"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/88EA71FE2CFA4B4CA13D3D7E78F04248",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "29JCCCHAIM",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "commission": {
+                        "percentage": "8.00"
+                    },
+                    "room": {
+                        "type": "C2T",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 2,
+                            "bedType": "SINGLE"
+                        },
+                        "description": {
+                            "text": "DREAM AWAY\nTWIN GUEST ROOM\nTWO SINGLE BEDS IN A CONTEMPORY SETTING"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "305.10",
+                        "variations": {
+                            "average": {
+                                "base": "305.10"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "305.10"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-29T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/29JCCCHAIM"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HLLON555"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "EBLONEBE",
+                "chainCode": "EB",
+                "dupeId": "700013278",
+                "name": "The London EDITION",
+                "rating": "5",
+                "cityCode": "LON",
+                "latitude": 51.51713,
+                "longitude": -0.13635,
+                "hotelDistance": {
+                    "distance": 1.4,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "10 BERNERS STREET"
+                    ],
+                    "postalCode": "W1T 3NP",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 207 7810000",
+                    "fax": "+44 207 7810100",
+                    "email": "guestexperience.london@editionhotels.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Discover the new generation of luxury at The London EDITION. Located in a historic building on the outskirts of Soho, just moments from Mayfair and Covent Garden, our 5-star hotel embodies the boutique elegance and quiet confidence that is the cornerstone of Ian Schrager's philosophy. Immaculately appointed rooms and suites boast a nautical theme, as well as distinctive design accents, complimentary Wi-Fi access, rainforest showers and modern technology. Savour seasonal British specialties at Berners Tavern, Michelin-starred chef Jason Atherton's stylish restaurant, which features a private dining room for special occasions. You can also unwind with a drink at the modern Lobby Bar and the reservations-only Punch Room. If you're planning a business or social occasion in Soho, you'll appreciate our adaptable venues and superb catering services. Should you wish to explore beyond the hotel, the very best of London is right at your fingertips. We look forward to your arrival at The London EDITION."
+                },
+                "amenities": [
+                    "BREAKFAST_FULL",
+                    "SPA",
+                    "ACCESSIBLE_FACILITIES",
+                    "SERVICE_DOGS_ALLOWED",
+                    "DISABLED_ACCESSIBLE_TOILETS",
+                    "HANDRAILS_BATHROOM",
+                    "SAFE_DEPOSIT_BOX",
+                    "DRY_CLEANING",
+                    "LAUNDRY_SERVICE",
+                    "ICE_MACHINES",
+                    "ROOM_SERVICE",
+                    "INTERIOR_ROOM_ENTRY",
+                    "BABY-SITTING",
+                    "LOUNGE",
+                    "24_HOUR_ROOM_SERVICE",
+                    "FRONT_DESK",
+                    "24_HOUR_FRONT_DESK",
+                    "CONCIERGE",
+                    "EXPRESS_CHECK_IN",
+                    "EXPRESS_CHECK_OUT",
+                    "WEDDING_SERVICES",
+                    "CAR_RENTAL",
+                    "TRAVEL_AGENCY",
+                    "ATM/CASH_MACHINE",
+                    "GYM",
+                    "RESTAURANT",
+                    "HIGH_SPEED_INTERNET",
+                    "FREE_INTERNET",
+                    "HIGH_SPEED_WIRELESS",
+                    "WIRELESS_CONNECTIVITY",
+                    "ELEVATOR",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "MEETING_FACILITIES",
+                    "HIGH_SPEED_INTERNET_IN_ROOM",
+                    "WI-FI_IN_ROOM",
+                    "NON_SMOKING_ROOMS",
+                    "TEA/COFFEE_MAKER",
+                    "AIR_CONDITIONING",
+                    "SAFE",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "CRIBS_AVAILABLE",
+                    "ROLLAWAY_BEDS",
+                    "TELEVISION",
+                    "CABLE_TELEVISION",
+                    "VOICEMAIL_IN_ROOM",
+                    "MINIBAR",
+                    "CORDLESS_PHONE",
+                    "BIDET",
+                    "LAUNDRY_EQUIPMENT_IN_ROOM",
+                    "TROUSER_PRESS",
+                    "DVD_PLAYER",
+                    "CD_PLAYER",
+                    "GAMES_SYSTEM_IN_ROOM",
+                    "DIRECT_DIAL_PHONE",
+                    "REFRIGERATOR",
+                    "FITNESS_CENTER",
+                    "BOWLING",
+                    "HORSE_RIDING",
+                    "VOLLEYBALL"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/A38AB40E383F47B79E03F46FEA4F2BA1",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "0V37TCDX36",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "room": {
+                        "type": "REG",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "QUEEN"
+                        },
+                        "description": {
+                            "text": "Flexible Rate\nGuest, In Loft: King or 1 Queen(s) or Doubles o\nr Twins, Round bed, Trundle bed, Bathrooms: 1, "
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "525.00",
+                        "variations": {
+                            "average": {
+                                "base": "525.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "525.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "numberOfNights": 1,
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/0V37TCDX36"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=EBLONEBE"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "SILON105",
+                "chainCode": "SI",
+                "dupeId": "700012635",
+                "name": "Sheraton Grand London Park Lane",
+                "rating": "4",
+                "cityCode": "LON",
+                "latitude": 51.50497,
+                "longitude": -0.14734,
+                "hotelDistance": {
+                    "distance": 1.4,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "PICCADILLY"
+                    ],
+                    "postalCode": "W1J 7BX",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 20 74996321",
+                    "fax": "+44 20 74991965",
+                    "email": "00105guestservicecentre@marriott.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Since throwing open our doors during the glamour of the 1920s, the Sheraton Grand London Park Lane remains a true expression of Mayfairs grandeur. Our celebrated art deco address boasts unrivalled views of Green Park with connections to Londons historic landmarks. From the moment you arrive, allow yourself to be swept away to an era of timeless elegance, charm and class. Our signature suites provide uncompromising indulgence with luxury amenities and exclusive access to the Club Lounge. Savour unrivalled culinary experiences with our award winning afternoon tea served in the exquisite Palm Court, be transported to the bustling markets of Italy in Mercante or sample Londons finest craft beers in Smith & Whistle. Walk in the footsteps of the many who have celebrated, gathered and marked lifes most important moments in our iconic Ballroom. Our dedicated service inspired by the hotels heritage will ensure you create unique and memorable experiences that will stay with you for a lifetime."
+                },
+                "amenities": [
+                    "SPA",
+                    "EXECUTIVE_FLOOR",
+                    "SAUNA",
+                    "ACCESSIBLE_FACILITIES",
+                    "SERVICE_DOGS_ALLOWED",
+                    "DISABLED_ACCESSIBLE_TOILETS",
+                    "HANDRAILS_BATHROOM",
+                    "ON-SITE_PARKING",
+                    "CONCIERGE",
+                    "EXCHANGE_FACILITIES",
+                    "FRONT_DESK",
+                    "24_HOUR_FRONT_DESK",
+                    "ROOM_SERVICE",
+                    "LOUNGE",
+                    "COFFEE_SHOP",
+                    "TRAVEL_AGENCY",
+                    "FLORIST",
+                    "ONSITE_LAUNDRY",
+                    "LAUNDRY_SERVICE",
+                    "EXPRESS_CHECK_IN",
+                    "EXPRESS_CHECK_OUT",
+                    "WEDDING_SERVICES",
+                    "CAR_RENTAL",
+                    "GYM",
+                    "PARKING",
+                    "RESTAURANT",
+                    "HIGH_SPEED_INTERNET",
+                    "FREE_INTERNET",
+                    "HIGH_SPEED_WIRELESS",
+                    "WIRELESS_CONNECTIVITY",
+                    "ELEVATOR",
+                    "PETS_ALLOWED",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "BUSINESS_CENTER",
+                    "MEETING_FACILITIES",
+                    "HIGH_SPEED_INTERNET_IN_ROOM",
+                    "WI-FI_IN_ROOM",
+                    "NON_SMOKING_ROOMS",
+                    "ALARM_CLOCK",
+                    "AIR_CONDITIONING",
+                    "SAFE",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "CRIBS_AVAILABLE",
+                    "ROLLAWAY_BEDS",
+                    "TELEVISION",
+                    "CABLE_TELEVISION",
+                    "DIRECT_DIAL_PHONE",
+                    "BIDET",
+                    "VOICEMAIL_IN_ROOM",
+                    "CORDLESS_PHONE",
+                    "TEA/COFFEE_MAKER",
+                    "MINIBAR",
+                    "OUTLET_ADAPTERS",
+                    "FITNESS_CENTER",
+                    "BOWLING",
+                    "HORSE_RIDING"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/69F6E66433B34C4A9A5251EC7ECA11B6",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "ZYBLPPGS3Y",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "S9R",
+                    "rateFamilyEstimated": {
+                        "code": "SRS",
+                        "type": "C"
+                    },
+                    "room": {
+                        "type": "XMI",
+                        "typeEstimated": {
+                            "category": "DELUXE_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Room, 1 King, Bathrooms: 1, 24sqm/258sqf\nt-25sqm/269sqft, Wireless internet, complimenta"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "239.20",
+                        "variations": {
+                            "average": {
+                                "base": "239.20"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "239.20"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/ZYBLPPGS3Y"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=SILON105"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "HLLON364",
+                "chainCode": "HL",
+                "dupeId": "700026363",
+                "name": "DOUBLETREE LONDON WEST END",
+                "rating": "4",
+                "cityCode": "LON",
+                "latitude": 51.51985,
+                "longitude": -0.12213,
+                "hotelDistance": {
+                    "distance": 1.6,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "92 SOUTHHAMTON ROW"
+                    ],
+                    "postalCode": "WC1B 4BH",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "44-0207-2422828",
+                    "fax": "44-0207-8319170"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Welcome to the DoubleTree by Hilton Hotel London-West End, located in the historic district of Bloomsbury. Our stylish London West End hotel is within walking distance of the British Museum, Covent Garden, and Shaftsbury Avenue as well as the major shopping attractions on both Oxford and Regent Street. Our Contemporary hotel is situated between the Financial District and world-famous attractions such as Soho and the Theatre district. We offer excellent public transport links to the rest of the UK and London through Holborn underground, Euston and Kings Cross St Pancres Station. Expect excellent service from our friendly multi-lingual staff and a signature, warm DoubleTree chocolate chip cookie upon arrival.  With its beautiful Edwardian façade, our hotel combines historic charm with modern convenience. Our stylish guest rooms feature work stations, flat-screen television and high speed wireless internet access. Deluxe rooms include queen-sized beds, upgrade to a luxurious Executive room and enjoy complimentary WiFi access. Our spacious duplex apartments boast a dining area, kitchenette and balcony.   Hold your meeting, conference, private event or wedding at our London West End hotel, offering modern and flexible meeting space coupled with the support of dedicated event staff and top of the range inbuilt audio visual equipment. Work in our business centre with complimentary printing service. Enjoy Champagne afternoon tea, an evening drink or full A la cart dinner in the stylishly designed bar92. Start the day with our DoubleTree Wake-up breakfast buffet and enjoy a work-out in our complimentary fitness center.  Highlights •Close to Covent Garden, the British Museum, West End, and Theatre land •Flexible meeting and event space, professional banquet staff and flexible menus •Private Executive wing with both Executive rooms and one or two bedroom suites •Variety of international cuisines catered for in our extensive bar, restaurant and 24 hour room service menus •Approximately 45 minutes from Heathrow Airport (LHR) and 1 hour from Gatwick Airport (LGW)  What to do around here  Excellent cafés, restaurants and top London attractions like the British Museum, Covent Garden, the famous West End and Oxford Street shops are all within walking distance. The Financial District, Soho, theatre district and various Universities including University College London, School of Oriental and African Studies and London School of Economics are all nearby. We are also excellently located near major medical institutions such as Great Ormond Street Hospital, National Hospital for Neurology & Neurosurgery and the Institute of Child’s Health. Take the family on a tour of London’s most famous landmarks and attractions including The Tower of London, Tower Bridge, Buckingham Palace, The Houses of Parliament, St Paul’s Cathedral and Madame Tussauds from a bus stop directly outside our hotel."
+                },
+                "amenities": [
+                    "BUSINESS_CENTER",
+                    "CONVENTION_CENTRE",
+                    "MEETING_ROOMS",
+                    "COFFEE_SHOP",
+                    "RESTAURANT",
+                    "WIDE_ENTRANCE",
+                    "WIDE_CORRIDORS",
+                    "FIRST_AID_STAF",
+                    "INTERIOR_ROOM_ENTRY",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "EXTINGUISHERS",
+                    "RESTRICTED_PUBLIC_ACCESS",
+                    "SMOKE_DETECTOR",
+                    "SPRINKLERS",
+                    "LAUNDRY_SERVICE",
+                    "PARKING",
+                    "SAFE_DEPOSIT_BOX",
+                    "AIR_CONDITIONING",
+                    "HAIR_DRYER",
+                    "KITCHEN",
+                    "NON_SMOKING_ROOMS",
+                    "DIRECT_DIAL_PHONE",
+                    "TELEVISION",
+                    "FITNESS_CENTER"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/AC00D0DA9B114DB99BC5D6A55E22FDAB",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "OLJCIZGG4Z",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "commission": {
+                        "percentage": "8.00"
+                    },
+                    "room": {
+                        "type": "C1S",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "SINGLE"
+                        },
+                        "description": {
+                            "text": "FLEXIBLE RATE\nSINGLE BED GUEST ROOM\nFREE WIFI / HDTV / WORK DESK"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "299.00",
+                        "variations": {
+                            "average": {
+                                "base": "299.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "299.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-29T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/OLJCIZGG4Z"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HLLON364"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "ICLONICA",
+                "chainCode": "IC",
+                "dupeId": "700009552",
+                "name": "INTERCONTINENTAL LONDON PARK",
+                "rating": "5",
+                "cityCode": "LON",
+                "latitude": 51.5036,
+                "longitude": -0.14981,
+                "hotelDistance": {
+                    "distance": 1.6,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "ONE HAMILTON PLACE PARK LANE"
+                    ],
+                    "postalCode": "W1J 7QY",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 207 4093131",
+                    "fax": "+44 207 3188593"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Once the site of a royal residence, InterContinental London Park Lane is now the epitome of modern elegance. Located between Mayfair and Knightsbridge in view of Buckingham Palace, the hotel is not far from the Tower of London Big Ben and Trafalgar Square. Also worth seeing is the Victoria and Albert Museum, Madame Tussauds and The National Portrait Gallery."
+                },
+                "amenities": [
+                    "24_HOUR_FRONT_DESK",
+                    "24_HOUR_ROOM_SERVICE",
+                    "ATM/CASH_MACHINE",
+                    "BABY-SITTING",
+                    "CAR_RENTAL",
+                    "CONCIERGE",
+                    "CONFERENCE_FACILITIES",
+                    "EXCHANGE_FACILITIES",
+                    "DOCTOR_ON_CALL",
+                    "GYM",
+                    "EXPRESS_CHECK_IN",
+                    "EXPRESS_CHECK_OUT",
+                    "HAIRDRESSER",
+                    "ACCESSIBLE_FACILITIES",
+                    "WHEELCHAIR_ACCESSIBLE_PUBLIC_AREA",
+                    "HANDRAILS_BATHROOM",
+                    "ACCESSIBLE_PARKING",
+                    "WHEELCHAIR_ACCESSIBLE_ROOM",
+                    "GARAGE_PARKING",
+                    "LAUNDRY_SERVICE",
+                    "MASSAGE",
+                    "ON-SITE_PARKING",
+                    "PARKING",
+                    "RESTAURANT",
+                    "SAFE_DEPOSIT_BOX",
+                    "CONVENIENCE_STORE",
+                    "TRANSLATION_SERVICES",
+                    "DRY_CLEANING",
+                    "VALET_PARKING",
+                    "PORTER/BELLBOY",
+                    "BEAUTY_PARLOUR",
+                    "FRONT_DESK",
+                    "WIFI",
+                    "WIRELESS_CONNECTIVITY",
+                    "NURSERY",
+                    "HIGH_SPEED_WIRELESS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "AUDIO-VISUAL_EQUIPMENT",
+                    "BUSINESS_CENTER",
+                    "CELLULAR_PHONE_RENTAL",
+                    "COMPUTER_RENTAL",
+                    "LCD/PROJECTOR",
+                    "OVERHEAD_PROJECTOR",
+                    "SECRETARIAL_SERVICES",
+                    "CONFERENCE_SUITE",
+                    "CONVENTION_CENTRE",
+                    "MEETING_FACILITIES",
+                    "FIRE_SAFETY",
+                    "EMERGENCY_BACKUP_GENERATOR",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "GUARDED_PARKING",
+                    "SPRINKLERS",
+                    "FIRST_AID_STAF",
+                    "VIDEO_SURVEILANCE",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "FITNESS_CENTER"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/07FEB42E17BC41A0989EE080FD70A73A",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "SXIBWPM2L7",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "06F",
+                    "room": {
+                        "type": "*RH",
+                        "typeEstimated": {
+                            "category": "COMFORT_ROOM"
+                        },
+                        "description": {
+                            "text": "REWARD NIGHTS\nSTANDARD ROOM STANDARD ROOMS ACCOMMODATE 2\nGUESTS AND OFFER ALL THE MODERN COMFORTS. ROOM"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "61.75",
+                        "total": "61.75",
+                        "variations": {
+                            "average": {
+                                "base": "61.75"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "61.75"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "AX",
+                                    "VI",
+                                    "CA",
+                                    "CU"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-29T05:23:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/SXIBWPM2L7"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=ICLONICA"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "PILONBBE",
+                "chainCode": "PI",
+                "dupeId": "700189809",
+                "name": "London Blackfriars",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.5131,
+                "longitude": -0.10561,
+                "hotelDistance": {
+                    "distance": 1.7,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "1- 2 DORSET RISE",
+                        "LONDON"
+                    ],
+                    "postalCode": "EC4Y 8EN",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 0871 527 9362",
+                    "fax": "+44 0207 936 4093",
+                    "email": "londonblackfriars.PI@PremierInn.Com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "With St Paul's Cathedral to one side, Tate Modern to the other, and the City on your doorstep, it's hard to get more central than Premier Inn London Blackfriars. - In fact, for a short break, we're perfectly placed. Wander to the West End and Covent Garden. Stroll along the Thames to Big Ben and the London Eye. Or catch a show at the world- famous Mermaid Theatre, just next door. And, with many of the world's biggest companies just minutes away, we're ideal for business trips too. Whether it's been work or play, you'll return to a friendly team, extra-comfy beds and an excellent breakfast."
+                },
+                "amenities": [
+                    "ELEVATOR",
+                    "WIRELESS_CONNECTIVITY",
+                    "ALARM_CLOCK",
+                    "TELEVISION",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "NON_SMOKING_ROOMS"
+                ],
+                "media": [
+                    {
+                        "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/7F16BE3A60B54DADB9D066EDACCF2A49",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "AJ3R23NEWF",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "room": {
+                        "type": "C1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Double Room\n1 King Bed"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "167.00",
+                        "variations": {
+                            "average": {
+                                "total": "167.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "167.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "CA",
+                                    "AX",
+                                    "AT",
+                                    "DC",
+                                    "DL",
+                                    "VI"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-07-01T13:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/AJ3R23NEWF"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=PILONBBE"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "HILON005",
+                "chainCode": "HI",
+                "dupeId": "700029591",
+                "name": "HOLIDAY INN EXP SOUTHWARK ST",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.5061,
+                "longitude": -0.10144,
+                "hotelDistance": {
+                    "distance": 1.8,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "103-109 SOUTHWARK ST"
+                    ],
+                    "postalCode": "SE10JQ",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 20 74012525",
+                    "fax": "+44 20 36270877"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Make the Holiday Inn Express London Southwark hotel your base for a buzzing central London location and excellent transport links. Friendly staff welcomes you on your arrival at our intimate 136 room hotel near Londons cosmopolitan South Bank. Holiday Inn Express London Southwark is a short walk from Southwark Underground Station and Blackfriars Network Rail Station with direct train services to Gatwick and Luton Airports. Settle into your air conditioned Guest room  decorated in contemporary colours  and start each day with a complimentary breakfast in our lively Great Room. Getting around London is easy with London Bridge and Waterloo stations just a short stroll from the hotel. Cross Blackfriars Bridge to get to the London Stock Exchange and Bank of England. We're just minutes from the lively cafes  theatres and galleries that dot Londons trendy South Bank. Walk along the River Thames to the Tate Modern gallery housed in a converted power station  or stroll over the futuristic Millennium Bridge to elegant St Pauls Cathedral. Why not stop by Borough Market for food tasting en route to the Shard. Holiday Inn Express London Southwarks central location puts chic bars and restaurants on your doorstep. Ask staff to recommend their favourites or do your own research via free wireless Internet in our open plan Lobby"
+                },
+                "amenities": [
+                    "24_HOUR_FRONT_DESK",
+                    "ATM/CASH_MACHINE",
+                    "EXPRESS_CHECK_OUT",
+                    "ON-SITE_PARKING",
+                    "PARKING",
+                    "SAFE_DEPOSIT_BOX",
+                    "FRONT_DESK",
+                    "WIRELESS_CONNECTIVITY",
+                    "HIGH_SPEED_WIRELESS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "BUSINESS_CENTER",
+                    "COMPUTER_RENTAL",
+                    "FIRE_SAFETY",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "VIDEO_SURVEILANCE",
+                    "EXTINGUISHERS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/BEB226A7324349CA8184D12DB8425311",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "6EJT5P2HP3",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "22A",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "boardType": "BREAKFAST",
+                    "room": {
+                        "type": "*2T",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 2,
+                            "bedType": "TWIN"
+                        },
+                        "description": {
+                            "text": "BEST FLEXIBLE RATE\n2 TWIN BEDS ROOM NONSMOKING TAKE YOUR PICK FROM\nAN EXTENSIVE SELECTION OF FREE VIEW CHANNELS ON"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "230.00",
+                        "total": "230.00",
+                        "variations": {
+                            "average": {
+                                "base": "230.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "230.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "AX",
+                                    "VI",
+                                    "CA",
+                                    "DC",
+                                    "CB",
+                                    "DS",
+                                    "BE"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "numberOfNights": 1,
+                            "deadline": "2021-06-28T23:47:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/6EJT5P2HP3"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HILON005"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "MCLONDTG",
+                "chainCode": "MC",
+                "dupeId": "700027181",
+                "name": "London Marriott Hotel Grosvenor Square",
+                "rating": "4",
+                "cityCode": "LON",
+                "latitude": 51.51288,
+                "longitude": -0.15079,
+                "hotelDistance": {
+                    "distance": 1.8,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "GROSVENOR SQUARE"
+                    ],
+                    "postalCode": "W1K6JPP",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 20 74931232",
+                    "fax": "+44 20 7514 1528",
+                    "email": "mhrs.londt.fo@marriott.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Experience 5-star service at the London Marriott Hotel Grosvenor Square. Perfectly situated in the upscale Mayfair neighbourhood, minutes from Oxford Street's world-class shopping, Hyde Park and iconic landmarks, our newly refurbished bedrooms and suites are elegantly furnished and feature marble bathrooms, signature bedding and deluxe amenities. Enjoy scenic views of Grosvenor Square or our private gardens; some suites boast balconies. Indulge in steakhouse dining at Gordon Ramsay Bar & Grill, or sample modern fare at Lucky Cat by Gordon Ramsay, an Asian Eating House and vibrant late-night lounge. Unwind with a craft cocktail after an exciting day in Mayfair, London at our hotel's 1920's-inspired award-winning speakeasy bar, The Luggage Room. Discover 12,109 square feet of high-tech, recently renovated venue space at our hotel; our grand ballroom is imbued with natural daylight, making it ideal for business or social gatherings. The London Marriott Hotel Grosvenor Square can't wait to welcome you to Mayfair."
+                },
+                "amenities": [
+                    "BREAKFAST_FULL",
+                    "SPA",
+                    "EXECUTIVE_FLOOR",
+                    "EXPRESS_CHECK_IN",
+                    "EXPRESS_CHECK_OUT",
+                    "LOUNGE",
+                    "INTERIOR_ROOM_ENTRY",
+                    "ACCESSIBLE_FACILITIES",
+                    "SERVICE_DOGS_ALLOWED",
+                    "DISABLED_ACCESSIBLE_TOILETS",
+                    "HANDRAILS_BATHROOM",
+                    "CONCIERGE",
+                    "SAFE_DEPOSIT_BOX",
+                    "EXCHANGE_FACILITIES",
+                    "DRY_CLEANING",
+                    "LAUNDRY_SERVICE",
+                    "FRONT_DESK",
+                    "24_HOUR_FRONT_DESK",
+                    "ICE_MACHINES",
+                    "24_HOUR_ROOM_SERVICE",
+                    "ROOM_SERVICE",
+                    "FLORIST",
+                    "ONSITE_LAUNDRY",
+                    "WEDDING_SERVICES",
+                    "CAR_RENTAL",
+                    "GYM",
+                    "RESTAURANT",
+                    "HIGH_SPEED_INTERNET",
+                    "HIGH_SPEED_WIRELESS",
+                    "WIRELESS_CONNECTIVITY",
+                    "ELEVATOR",
+                    "PRINTER",
+                    "PHOTOCOPIER",
+                    "SECRETARIAL_SERVICES",
+                    "BUSINESS_CENTER",
+                    "MEETING_FACILITIES",
+                    "HIGH_SPEED_INTERNET_IN_ROOM",
+                    "WI-FI_IN_ROOM",
+                    "NON_SMOKING_ROOMS",
+                    "TEA/COFFEE_MAKER",
+                    "MINIBAR",
+                    "ALARM_CLOCK",
+                    "AIR_CONDITIONING",
+                    "SAFE",
+                    "BATH",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "CRIBS_AVAILABLE",
+                    "ROLLAWAY_BEDS",
+                    "OUTLET_ADAPTERS",
+                    "TELEVISION",
+                    "CABLE_TELEVISION",
+                    "VOICEMAIL_IN_ROOM",
+                    "DIRECT_DIAL_PHONE",
+                    "BIDET",
+                    "BALLROOM",
+                    "FITNESS_CENTER"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/5B87D08EF15C439AA097A615A83F5347",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "ICNYCGY4FT",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "S9R",
+                    "rateFamilyEstimated": {
+                        "code": "SRS",
+                        "type": "C"
+                    },
+                    "room": {
+                        "type": "XMI",
+                        "typeEstimated": {
+                            "category": "DELUXE_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe King, 1 King, Bathrooms: 1, Mini fridge,\n 24sqm/258sqft, Living/sitting area, Dining are"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "239.20",
+                        "variations": {
+                            "average": {
+                                "base": "239.20"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "239.20"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/ICNYCGY4FT"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=MCLONDTG"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "PILONAYR",
+                "chainCode": "PI",
+                "dupeId": "700015888",
+                "name": "London Victoria",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.49259,
+                "longitude": -0.14222,
+                "hotelDistance": {
+                    "distance": 1.8,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "82-83 ECCLESTON SQUARE"
+                    ],
+                    "postalCode": "SW1V 1PS",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 0871 527 8680",
+                    "fax": "+44 0207 963 4061",
+                    "email": "londonvictoria.pi@premierinn.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "So close to the sights you're almost rubbing shoulders with Royalty, Premier Inn London Victoria puts you in prime position. You can stroll to many of the capital's most famous sights and, with Victoria Station just minutes away, you're connected to city, country and coast.   Catch the changing of the guard at Buckingham Palace, get arty at the Tate, cruise along the Thames, be wowed by a West End show, then return to the peace and quiet of Pimlico. Here you'll find everything you need to recharge the batteries: spacious rooms, a tasty restaurant, and extra-comfy beds."
+                },
+                "amenities": [
+                    "ELEVATOR",
+                    "CONFERENCE_FACILITIES",
+                    "WIRELESS_CONNECTIVITY",
+                    "ALARM_CLOCK",
+                    "TELEVISION",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "NON_SMOKING_ROOMS"
+                ],
+                "media": [
+                    {
+                        "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/AAE76A1124A941BE83C6DD625A63649C",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "NQ4K5H1DXK",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "RAC",
+                    "room": {
+                        "type": "C1K",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "KING"
+                        },
+                        "description": {
+                            "text": "Double Room\n1 King Bed"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "144.00",
+                        "variations": {
+                            "average": {
+                                "total": "144.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "144.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "CA",
+                                    "AX",
+                                    "AT",
+                                    "DC",
+                                    "DL",
+                                    "VI"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-07-01T13:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/NQ4K5H1DXK"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=PILONAYR"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "YZLONE16",
+                "chainCode": "YZ",
+                "dupeId": "501433155",
+                "name": "Staybridge Stes Vauxhall",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.48944,
+                "longitude": -0.1211,
+                "hotelDistance": {
+                    "distance": 1.9,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "SPRING MEWS, TINWORTH STREET",
+                        "VAUXHALL WALK"
+                    ],
+                    "postalCode": "SE11 5EH",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 203 0961555",
+                    "fax": "+44 203 0961333"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "A warm and friendly welcome awaits you at Staybridge Suites London Vauxhall hotel located in a quite leafy side street just off Albert Embankment and only minutes away from Vauxhall tube bus and rail links From the moment you step into our bright and contemporary lobby you will feel completely at home This is a hotel where you come to live rather than stay so settle in and unwind by the fireplace in our lounge Head up to your striking modern yet cozy studio or one bedroom suite where you will find all the comforts of home with all the mod cons including wireless internet throughout Staybridge Suites London Vauxhall hotel is superbly located offering stunning views of the London Eye and Westminster as well as being just a short from Londons eclectic Southbank the culture heart of the city and home to Londons most iconic attractions theatres arts and design led venues. The area is buzzing with things to see and do all year round free events music film exhibitions dance theatre debates festivals and all sorts of fun the ideal neighbourhood to stay in when in London  Our complimentary make yourself at home breakfast is served in our Hub Kitchen daily and in the evening our guests can network or mingle over complimentary drinks and snacks at our Managers Social held every Tuesday Wednesday and Thursday After a long day you can energize in the Fitness Centre or meet in the Den meeting room."
+                },
+                "amenities": [
+                    "24_HOUR_FRONT_DESK",
+                    "ATM/CASH_MACHINE",
+                    "CAR_RENTAL",
+                    "COFFEE_SHOP",
+                    "CONCIERGE",
+                    "CONFERENCE_FACILITIES",
+                    "DOCTOR_ON_CALL",
+                    "GYM",
+                    "ACCESSIBLE_FACILITIES",
+                    "WHEELCHAIR_ACCESSIBLE_PUBLIC_AREA",
+                    "HANDRAILS_BATHROOM",
+                    "WHEELCHAIR_ACCESSIBLE_ROOM",
+                    "ICE_MACHINES",
+                    "LAUNDRY_SERVICE",
+                    "CONVENIENCE_STORE",
+                    "DRY_CLEANING",
+                    "FRONT_DESK",
+                    "WIRELESS_CONNECTIVITY",
+                    "CHILDRENS_PLAY_AREA",
+                    "HIGH_SPEED_WIRELESS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "AUDIO-VISUAL_EQUIPMENT",
+                    "BUSINESS_CENTER",
+                    "COMPUTER_RENTAL",
+                    "LCD/PROJECTOR",
+                    "MEETING_FACILITIES",
+                    "FIRE_SAFETY",
+                    "EMERGENCY_BACKUP_GENERATOR",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "SPRINKLERS",
+                    "FIRST_AID_STAF",
+                    "VIDEO_SURVEILANCE",
+                    "EXTINGUISHERS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "GOLF"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/FE1C69C6B474496D83307A37055CFA1D",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "WESTAK6EGM",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "U9A",
+                    "rateFamilyEstimated": {
+                        "code": "GOV",
+                        "type": "C"
+                    },
+                    "boardType": "BREAKFAST",
+                    "room": {
+                        "type": "*RH",
+                        "typeEstimated": {
+                            "category": "SUITE"
+                        },
+                        "description": {
+                            "text": "GOVERNMENT RATE\nSTANDARD SUITE NONSMOKING BED TYPE PREFERENCE\nCANNOT BE GUARANTEED AND WILL BE ALLOCATED UPON"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "223.25",
+                        "total": "223.25",
+                        "variations": {
+                            "average": {
+                                "base": "223.25"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "223.25"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "AX",
+                                    "VI",
+                                    "CA",
+                                    "DC",
+                                    "CB",
+                                    "DS",
+                                    "BE"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "numberOfNights": 1,
+                            "deadline": "2021-06-29T09:18:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/WESTAK6EGM"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=YZLONE16"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "HILONBE3",
+                "chainCode": "HI",
+                "dupeId": "700024236",
+                "name": "Holiday Inn Exp Victoria Stn",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.48985,
+                "longitude": -0.13705,
+                "hotelDistance": {
+                    "distance": 1.9,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "106 -110 BELGRAVE RD"
+                    ],
+                    "postalCode": "SW1V 2BJ",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 20 76308888",
+                    "fax": "+44 20 78280441"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Enjoy friendly service with a personal touch in the heart of London at the Holiday Inn Express London Victoria hotel, a short walk from Pimlico train station. Housed in a beautifully restored Victorian building on bustling Belgrave Road, Holiday Inn Express London Victoria is within easy strolling distance of major sights like Buckingham Palace."
+                },
+                "amenities": [
+                    "24_HOUR_FRONT_DESK",
+                    "ATM/CASH_MACHINE",
+                    "CAR_RENTAL",
+                    "COFFEE_SHOP",
+                    "DOCTOR_ON_CALL",
+                    "GYM",
+                    "EXPRESS_CHECK_IN",
+                    "EXPRESS_CHECK_OUT",
+                    "ACCESSIBLE_FACILITIES",
+                    "WHEELCHAIR_ACCESSIBLE_PUBLIC_AREA",
+                    "HANDRAILS_BATHROOM",
+                    "WHEELCHAIR_ACCESSIBLE_ELEVATORS",
+                    "ACCESSIBLE_PARKING",
+                    "WHEELCHAIR_ACCESSIBLE_ROOM",
+                    "GARAGE_PARKING",
+                    "JOGGING_TRACK",
+                    "LAUNDRY_SERVICE",
+                    "SAFE_DEPOSIT_BOX",
+                    "CONVENIENCE_STORE",
+                    "DRY_CLEANING",
+                    "BEAUTY_PARLOUR",
+                    "FRONT_DESK",
+                    "BREAKFAST_FULL",
+                    "WIRELESS_CONNECTIVITY",
+                    "HIGH_SPEED_WIRELESS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "PHOTOCOPIER",
+                    "PRINTER",
+                    "COMPUTER_RENTAL",
+                    "CONFERENCE_SUITE",
+                    "CONVENTION_CENTRE",
+                    "FIRE_SAFETY",
+                    "EMERGENCY_BACKUP_GENERATOR",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "GUARDED_PARKING",
+                    "VIDEO_SURVEILANCE",
+                    "EXTINGUISHERS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/C87DD62348C64342998DADF5E6E032E7",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "60LSNIUZ97",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "22A",
+                    "rateFamilyEstimated": {
+                        "code": "BAR",
+                        "type": "P"
+                    },
+                    "boardType": "BREAKFAST",
+                    "room": {
+                        "type": "*2T",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 2,
+                            "bedType": "SINGLE"
+                        },
+                        "description": {
+                            "text": "BEST FLEXIBLE RATE\n2 SINGLE BEDS NONSMOKING CATCH UP ON EMAILS OR\nBROWSE THE NET WITH FREE WIRELESS INTERNET."
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "219.00",
+                        "total": "219.00",
+                        "variations": {
+                            "average": {
+                                "base": "219.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "219.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "AX",
+                                    "VI",
+                                    "CA",
+                                    "DC",
+                                    "CB",
+                                    "DS",
+                                    "BE"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "numberOfNights": 1,
+                            "deadline": "2021-06-28T16:34:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/60LSNIUZ97"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HILONBE3"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "HILON6AA",
+                "chainCode": "HI",
+                "dupeId": "700020449",
+                "name": "HOLIDAY INN OXFORD CIRCUS",
+                "rating": "3",
+                "cityCode": "LON",
+                "latitude": 51.51697,
+                "longitude": -0.1492,
+                "hotelDistance": {
+                    "distance": 2.0,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "57 - 59 WELBECK STREET"
+                    ],
+                    "postalCode": "W1G 9BL",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 207 9354442",
+                    "fax": "+44 207 4873782"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Enjoy a quiet location right in the heart of cosmopolitan London at the Holiday Inn London Oxford Circus hotel. Marble columns frame the entrance to our London hotel, an elegant Edwardian building on a peaceful street in the smart Marylebone area. Choose an Executive room for city views and check email throughout the hotel with wireless Internet. Holiday Inn London Oxford Circus is just 150 metres from Oxford Street shopping and 10 minutes by taxi from Paddington Station for direct rail links to Heathrow Airport. Our central location makes getting around London easy. It's a short stroll to Harley Street, Bond Street station, for direct trains to Canary Wharf. Invite clients to Holiday Inn London Oxford Circus and give a presentation in one of 3 air conditioned meeting rooms with space for up to 135 people. Major London attractions like Madame Tussauds waxworks and stately Buckingham Palace are within walking distance of our hotel. See the sights on an open top bus tour, and ask our friendly Concierge to book your tickets to shows in London's buzzing Theatreland. Start your day with a full English breakfast and dine at the evening carvery in Oliver's Restaurant. You can work up an appetite in the MiniGym and unwind in The Londoner, our sociable bar. We're also a short walk from Soho's lively pubs and cafes."
+                },
+                "amenities": [
+                    "24_HOUR_FRONT_DESK",
+                    "CONCIERGE",
+                    "CONFERENCE_FACILITIES",
+                    "EXCHANGE_FACILITIES",
+                    "DOCTOR_ON_CALL",
+                    "GYM",
+                    "EXPRESS_CHECK_OUT",
+                    "ACCESSIBLE_FACILITIES",
+                    "WHEELCHAIR_ACCESSIBLE_PUBLIC_AREA",
+                    "HANDRAILS_BATHROOM",
+                    "WHEELCHAIR_ACCESSIBLE_ELEVATORS",
+                    "WHEELCHAIR_ACCESSIBLE_ROOM",
+                    "LAUNDRY_SERVICE",
+                    "PARKING",
+                    "ROOM_SERVICE",
+                    "SAFE_DEPOSIT_BOX",
+                    "DRY_CLEANING",
+                    "PORTER/BELLBOY",
+                    "FRONT_DESK",
+                    "WIRELESS_CONNECTIVITY",
+                    "HIGH_SPEED_WIRELESS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT",
+                    "PHOTOCOPIER",
+                    "AUDIO-VISUAL_EQUIPMENT",
+                    "LCD/PROJECTOR",
+                    "OVERHEAD_PROJECTOR",
+                    "SECRETARIAL_SERVICES",
+                    "MEETING_FACILITIES",
+                    "FIRE_SAFETY",
+                    "EMERGENCY_LIGHTING",
+                    "FIRE_DETECTORS",
+                    "EXTINGUISHERS",
+                    "FEMA_FIRE_SAFETY_COMPLIANT"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/B62CE309C5EA404A80AED7A56C3CDF88",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "5INVHB4Z11",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "86V",
+                    "rateFamilyEstimated": {
+                        "code": "PRO",
+                        "type": "P"
+                    },
+                    "room": {
+                        "type": "*1S",
+                        "typeEstimated": {
+                            "category": "STANDARD_ROOM",
+                            "beds": 1,
+                            "bedType": "SINGLE"
+                        },
+                        "description": {
+                            "text": "BOOK NOW, PAY LATER\n1 SINGLE BED NONSMOKING SURF THE WEB WITH\nWIRELESS INTERNET IN YOUR BRIGHT AIR"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "base": "174.30",
+                        "total": "174.30",
+                        "variations": {
+                            "average": {
+                                "base": "174.30"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "base": "174.30"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "guarantee": {
+                            "acceptedPayments": {
+                                "creditCards": [
+                                    "AX",
+                                    "VI",
+                                    "CA",
+                                    "DC",
+                                    "CB",
+                                    "DS",
+                                    "BE"
+                                ],
+                                "methods": [
+                                    "CREDIT_CARD"
+                                ]
+                            }
+                        },
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "numberOfNights": 1,
+                            "deadline": "2021-06-30T16:00:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/5INVHB4Z11"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HILON6AA"
+        },
+        {
+            "type": "hotel-offers",
+            "hotel": {
+                "type": "hotel",
+                "hotelId": "MCLONGHM",
+                "chainCode": "MC",
+                "dupeId": "700031300",
+                "name": "JW Marriott Grosvenor House London",
+                "rating": "5",
+                "cityCode": "LON",
+                "latitude": 51.50988,
+                "longitude": -0.15509,
+                "hotelDistance": {
+                    "distance": 2.0,
+                    "distanceUnit": "KM"
+                },
+                "address": {
+                    "lines": [
+                        "PARK LANE"
+                    ],
+                    "postalCode": "W1K 7TN",
+                    "cityName": "LONDON",
+                    "countryCode": "GB"
+                },
+                "contact": {
+                    "phone": "+44 20 74996363",
+                    "fax": "+44 20 7629 9337",
+                    "email": "jw.longh.guest.relations@marriott.com"
+                },
+                "description": {
+                    "lang": "en",
+                    "text": "Reward yourself with 5-star service and luxury amenities at JW Marriott Grosvenor House London. Located on Park Lane in central London, our luxury hotel offers exceptional accommodations in a distinguished setting within the upscale neighbourhood of Mayfair. Park Lane is just moments from Hyde Park, Oxford Street, Buckingham Palace and more. Make yourself at home in our luxury hotel rooms and suites, featuring 5-star amenities like plush pillowtop beds, marble bathrooms and high-speed Wi-Fi access. Savour delicious dining at JW Steakhouse or meet friends for cocktails at Red Bar and the Bourbon Bar. Gather for afternoon tea in our Park Room. Maintain your workout routine in our modern fitness centre. Discover our renovated ballroom, our sophisticated Executive Lounge and additional upscale venues for your next special occasion. Explore London with ease via Mayfair's nearby tube stations and Paddington Station, just moments from the hotel. A stay at JW Marriott Grosvenor House London is truly a remarkable one."
+                },
+                "amenities": [
+                    "BREAKFAST_FULL",
+                    "EXECUTIVE_FLOOR",
+                    "TRANSLATION_SERVICES",
+                    "EXPRESS_CHECK_OUT",
+                    "LOUNGE",
+                    "COFFEE_SHOP",
+                    "INTERIOR_ROOM_ENTRY",
+                    "ACCESSIBLE_FACILITIES",
+                    "SERVICE_DOGS_ALLOWED",
+                    "DISABLED_ACCESSIBLE_TOILETS",
+                    "HANDRAILS_BATHROOM",
+                    "ON-SITE_PARKING",
+                    "VALET_PARKING",
+                    "CONCIERGE",
+                    "SAFE_DEPOSIT_BOX",
+                    "EXCHANGE_FACILITIES",
+                    "BABY-SITTING",
+                    "FRONT_DESK",
+                    "24_HOUR_FRONT_DESK",
+                    "DRY_CLEANING",
+                    "LAUNDRY_SERVICE",
+                    "ICE_MACHINES",
+                    "HAIRDRESSER",
+                    "FLORIST",
+                    "ONSITE_LAUNDRY",
+                    "ROOM_SERVICE",
+                    "TRAVEL_AGENCY",
+                    "ATM/CASH_MACHINE",
+                    "BEAUTY_PARLOUR",
+                    "WEDDING_SERVICES",
+                    "CAR_RENTAL",
+                    "GYM",
+                    "PARKING",
+                    "RESTAURANT",
+                    "HIGH_SPEED_INTERNET",
+                    "FREE_INTERNET",
+                    "HIGH_SPEED_WIRELESS",
+                    "WIRELESS_CONNECTIVITY",
+                    "ELEVATOR",
+                    "PRINTER",
+                    "PHOTOCOPIER",
+                    "SECRETARIAL_SERVICES",
+                    "BUSINESS_CENTER",
+                    "MEETING_FACILITIES",
+                    "HIGH_SPEED_INTERNET_IN_ROOM",
+                    "WI-FI_IN_ROOM",
+                    "NON_SMOKING_ROOMS",
+                    "TEA/COFFEE_MAKER",
+                    "MINIBAR",
+                    "ALARM_CLOCK",
+                    "AIR_CONDITIONING",
+                    "SAFE",
+                    "BATH",
+                    "BIDET",
+                    "HAIR_DRYER",
+                    "IRON/IRON_BOARD",
+                    "CRIBS_AVAILABLE",
+                    "ROLLAWAY_BEDS",
+                    "OUTLET_ADAPTERS",
+                    "REFRIGERATOR",
+                    "MICROWAVE",
+                    "TELEVISION",
+                    "CABLE_TELEVISION",
+                    "DVD_PLAYER",
+                    "VOICEMAIL_IN_ROOM",
+                    "DIRECT_DIAL_PHONE",
+                    "CORDLESS_PHONE",
+                    "BALLROOM",
+                    "SPA",
+                    "FITNESS_CENTER",
+                    "HORSE_RIDING"
+                ],
+                "media": [
+                    {
+                        "uri": "http://uat.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/269C913428F74D608072C6A3D9058374",
+                        "category": "EXTERIOR"
+                    }
+                ]
+            },
+            "available": true,
+            "offers": [
+                {
+                    "id": "0H884S08S7",
+                    "checkInDate": "2021-07-01",
+                    "checkOutDate": "2021-07-02",
+                    "rateCode": "S9R",
+                    "rateFamilyEstimated": {
+                        "code": "SRS",
+                        "type": "C"
+                    },
+                    "room": {
+                        "type": "XMI",
+                        "typeEstimated": {
+                            "category": "DELUXE_ROOM",
+                            "beds": 1,
+                            "bedType": "QUEEN"
+                        },
+                        "description": {
+                            "text": "Marriott Senior Discount, 62 years and older valid ID required\nDeluxe Queen Room, 1 Queen(s), Bathrooms: 1, 20\nsqm/215sqft-29sqm/312sqft, Wireless internet, f"
+                        }
+                    },
+                    "guests": {
+                        "adults": 1
+                    },
+                    "price": {
+                        "currency": "GBP",
+                        "total": "292.00",
+                        "variations": {
+                            "average": {
+                                "base": "292.00"
+                            },
+                            "changes": [
+                                {
+                                    "startDate": "2021-07-01",
+                                    "endDate": "2021-07-02",
+                                    "total": "292.00"
+                                }
+                            ]
+                        }
+                    },
+                    "policies": {
+                        "paymentType": "guarantee",
+                        "cancellation": {
+                            "deadline": "2021-06-30T23:59:00+01:00"
+                        }
+                    },
+                    "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/0H884S08S7"
+                }
+            ],
+            "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=MCLONGHM"
+        }
+    ],
+    "meta": {
+        "links": {
+            "next": "https://test.api.amadeus.com/v2/shopping/hotel-offers?cityCode=LON&page[offset]=284YUV11H5X3_100"
+        }
+    }
+}

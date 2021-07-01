@@ -1,0 +1,20 @@
+#loading-screen {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0008;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+background-color: rgba(228, 246, 246, 0.533);
+}
+.photo{
+width: 100px;
+height: 100px;
+}
