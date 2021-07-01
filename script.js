@@ -22,12 +22,19 @@ const API_URLS = {
   cities: "cities.json",
   getTokenApi: `https://test.api.amadeus.com/v1/security/oauth2/token`,
 };
+// calling function before executing would fail using the const syntax, try to avoid it
 main();
 
 function main() {
-  hideLoadingScreen();
+  //why hide loading before ajax sent?
+  // hideLoadingScreen();
+  // should be $(document).ready(() => showLoadingScreen("Loading..."));
   $(document).ajaxStart(() => showLoadingScreen("Loading..."));
+  //confusing why hide the loading before ajax ends
   $(document).ajaxComplete(() => hideLoadingScreen());
+  //not waiting for ajax to end? 
+  //  should be, send ajax, ajax ends, update local state data, hide loading
+  //  you did: hide loading, start loading, hide loading, send ajax, not wait for it to finish, ajax update the state on its own,
   allApi();
   apiCities();
   initForm();
@@ -48,6 +55,7 @@ function fetchCityList(onFetchResult) {
 }
 
 function apiCities() {
+  //nice use of callback but you can also use promise
   fetchCityList((cities) => {
     cities.forEach(renderCity);
   });
@@ -74,6 +82,7 @@ function initForm() {
       formEl.checkOut.min = getMinDate(new Date(date), 1);
     }
   });
+  // why use "function" and not "=>" here?
   inputs.$form.submit(function (e) {
     e.preventDefault();
     const hotel = {
@@ -85,12 +94,14 @@ function initForm() {
     state.searchHotelByUser.push(hotel);
     state.cityCode.push(hotel.city);
     getHotelValue(hotel.checkIN, hotel.checkOut, hotel.city, (results) => {
+      //should all be in a different function named renderResult and be called from here
       if (results.length !== 0) {
         results.forEach(creatResultElement);
       } else {
         noHotelMessage();
       }
     });
+    //remove comments
     // getPictureHotelsApi((results) => {
     //   results.forEach(creatResultPhoto);
     // });
@@ -102,11 +113,13 @@ function initForm() {
 
 function validateCity(hotel) {
   if (hotel.city === "select") {
+    //why throw?
     throw validateCityAlert("please select a city from the list");
   }
 }
 
 function validateCityAlert(message) {
+  //html element not organized and hard to read
   const $msg =
     $(`<div class="alert alert-warning alert-dismissible fade show" role="alert">
   <strong>${message}</strong> 
@@ -116,25 +129,31 @@ function validateCityAlert(message) {
 </div>`);
   $msg.fadeIn();
   $("body").append($msg);
+  // why not "=>" instead
   $(".close").on("click", function () {
     $(".alert").remove();
   });
 }
+//what?
 let i = 12321;
 
 function creatResultElement(result) {
   const $div = $(`<div id="main-container"></div>`);
   const $hotelName = $(`<h1>${result.hotelName}</h1>`);
+  //should have an id from the data and not generated here, "i" is a bad variable name
+  // you can also save the URL of the image in the hotel data
   const $picture = $(
     `<img src="https://source.unsplash.com/800x450/?hotel&id=3${i++}" class="img-thumbnail photo" alt="..."></img>`
   );
   const $ratingVal =
+  //never use === undefined, use if (!result.rate) instead
     result.rate === undefined
       ? "Not Rated Yet"
       : createStarsRating(result.rate);
   const hotelRating = $(`<p>${result.hotelRating}</p>`);
   const hotelLines = $(`<p>${result.hotelLines}</p>`);
   const Description =
+  //same
     result.hotelDescription === undefined
       ? $(`<p>i am empty</p>`)
       : $(`<div>
@@ -160,22 +179,27 @@ function creatResultElement(result) {
     hotelAmenities,
     btnModal
   );
+  //append alone is not good you need to empty the container div first and then append
   ELEMENTS_DYNAMIC.resultHotels.append($div);
 }
 
 function accessToken() {
-  console.log("success to get api token");
+  //remove console.log("success to get api token");
   try {
     $.ajax({
       type: "POST",
       url: API_URLS.getTokenApi,
       data: {
+        //why space in client_id?
+        //JS syntax is camleCase and not snake_case should be clientId, clientSecret, grantType
         client_id: " 7WVMCOuXa30yPwmeOBeanGSsVJN5CfdU",
         client_secret: "d6HPw1RTAl9rXJYe",
         grant_type: "client_credentials",
       },
       success: function (data) {
-        console.log(data);
+        // remove console.log(data);
+        // why Object.values instead of simply data.access_token ??
+        //should wait with await keyword to ajax to end and then execute this 
         const token = Object.values(data.access_token).join("");
         state.token.push(token);
       },
@@ -186,12 +210,15 @@ function accessToken() {
 }
 
 function allApi() {
+  //useless function
   accessToken();
 }
 // getHotelValue(); this function will be active after check if (data.json) worked
 async function getHotelValue(checkIn, checkOut, city, fetchHotel) {
   try {
+    // "if (state.cityCode.length) {" will do the same because 0 is false and all the other numbers are true
     if (state.cityCode.length !== 0) {
+      // remove console.log
       console.log("success to get hotels");
       await $.ajax({
         // url: `https://test.api.amadeus.com/v2/shopping/hotel-offers?cityCode=${city}&checkInDate=${checkIn}&checkOutDate=${checkOut}`,
@@ -202,7 +229,13 @@ async function getHotelValue(checkIn, checkOut, city, fetchHotel) {
           Authorization: `Bearer ${state.token}`,
         },
         success: (data) => {
+          //this all should be after the ajax call like this const data = await $.ajax({
+          //you are already waiting for the ajax to end why use callbacks?
+
+          //remove console.logs
           console.log(data);
+          // good use of map but does not have a check if data is array
+          //can use: "const results = data?.data?.map((result) => ({"
           const results = data.data.map((result) => ({
             hotelId: result.hotel.hotelId,
             hotelName: result.hotel.name,
@@ -218,6 +251,7 @@ async function getHotelValue(checkIn, checkOut, city, fetchHotel) {
             currency: result.offers[0].price.currency,
             price: result.offers[0].price.total,
           }));
+          //remove console.logs
           console.log(results);
           fetchHotel(results);
         },
@@ -225,6 +259,7 @@ async function getHotelValue(checkIn, checkOut, city, fetchHotel) {
     }
   } catch (e) {
     showError(e.statusText);
+    //remove console.logs
     console.log(e.statusText);
   }
 }
@@ -312,6 +347,7 @@ function renderPopModal() {
 }
 
 var modalWrap = null;
+// remove unused functions, or uncomment them
 // function modalRender() {
 //   if (modalWrap !== null) {
 //     modalWrap.remove();

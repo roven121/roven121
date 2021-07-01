@@ -1,0 +1,12 @@
+remove unused HTML files
+change background color 
+screen always twitching with loading icon
+
+remove horizaontal scroll
+
+clicking on book icon leads to error
+7index.html:1 Uncaught ReferenceError: modalRender is not defined
+    at HTMLButtonElement.onclick (index.html:1)
+
+
+remove unused JS files    
